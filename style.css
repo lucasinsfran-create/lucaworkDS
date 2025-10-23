@@ -20,7 +20,7 @@
     }
     main{
     margin-top: 20px;
-    max-width 90%;
+    max-width: 90px;s
     text-align: center;
     }
     button{
@@ -29,6 +29,15 @@
         color: var(--azul-pm);
         border: 2px solid var(--azul-navi);
         padding: 20px 30px;
-        margin:s
-        cursor:
-    }
+        margin: 10px 0;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 20px;
+}
+     button:hover{
+        background-color: var(--laranja);
+       color: var(--azul);
+         transition: 0.5s;
+}
+
+
