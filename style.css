@@ -7,10 +7,10 @@
     --azul-pm: #140152ff;
     --azul-navi: #22007cff;
     --titulo: "Orbitron", sans-serif;
-    --texto:  
+    --texto: "Raleway" , sans-serif;
     }
     body{
-      background-color: var(--preto);
+      background-color: var(--azul-pm);
       font-family: var(--texto);
       margin: 0;
       padding: 0;
@@ -20,12 +20,12 @@
     }
     main{
     margin-top: 20px;
-    max-width: 90px;s
+    max-width: 90%;
     text-align: center;
     }
     button{
         font-family: var(--titulo);
-        background-color: var(--azul-facu);
+        background-color: var(--azul-navi);
         color: var(--azul-pm);
         border: 2px solid var(--azul-navi);
         padding: 20px 30px;
